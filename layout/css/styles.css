@@ -1,20 +1,20 @@
-  ul {
-    list-style: none;
-    max-width: 300px;
-  }
+ul {
+	list-style: none;
+	max-width: 300px;
+}
   
-  li {
-    border: 2px solid #888;
-  }
+li {
+	border: 2px solid #888;
+}
   
-  li:not(:last-child) {
-    border-bottom: 0;
-  }
+li:not(:last-child) {
+	border-bottom: 0;
+}
   
-  li:hover {
-    border: 2px solid #000;
-  }
+li:hover {
+	border: 2px solid #000;
+}
   
-  li:hover + li {
-    border-top: 0;
-  }
+li:hover + li {
+	border-top: 0;
+}
